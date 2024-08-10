@@ -105,7 +105,7 @@ const Blackjack: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="wrapper">
       <h1>Blackjack</h1>
       <button onClick={dealInitialCards}>Start Game</button>
       <PlayerComponent player={player} />
